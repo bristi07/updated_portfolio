@@ -11,37 +11,37 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters',
-        tags: ['HTML','JavaScript', 'CSS'],
-        code: 'https://github.com/bristi07/Weather-App',
+        projectName: 'All In One App to Boost Argo-Economy',
+        projectDesc: 'An app to bridge the gap between farmers and customers.',
+        tags: ['React','MongoDB', 'ExpressJS', 'NodeJs','Stripe', 'JWT Token'],
+        code: 'https://github.com/bristi07/agro_economy',
         // demo: '',
         image:three
     },
     {
         id: 2,
-        projectName: 'Dice Game',
-        projectDesc: 'This is basicall a simple website to decide a winner by throwing two dices and deciding the winner.',
-        tags: ['HTML', ' CSS','NodeJs','Javascript'],
-        code: 'https://github.com/bristi07/dice-project',
+        projectName: 'Todo List',
+        projectDesc: 'Designed a TodoList.It comprises with the features of adding and deleting items',
+        tags: ['NodeJS', ' ExpressJS','MongoDB','Bootstrap'],
+        code: 'https://github.com/bristi07/list',
        // demo: '',
         image: two
     },
     {
         id: 3,
-        projectName: 'Calendar',
-        projectDesc: 'A simple calendar made using javascript.',
-        tags: ['HTMML', 'CSS', 'Javascript'],
-        code: 'https://github.com/bristi07/Calendar',
+        projectName: 'Personal Portfolio',
+        projectDesc: 'Project section with information about the developers past and current projects, including descriptions and links to the live demos or repositories on GitHub',
+        tags: ['ReactJS', 'CSS3', 'HTML'],
+        code: 'https://github.com/bristi07/Mine_portfolio',
       //  demo: '',
         image: one
     },
     {
         id: 4,
-        projectName: 'Food Delivery Website',
-        projectDesc: "A food delivery website front-end only, inspired by india's lagrest food delivery website.",
-        tags: ['HTML', 'CSS'],
-        code: 'https://github.com/bristi07/Swiggy-clone',
+        projectName: 'Image Searching Website',
+        projectDesc: "A place to find beautiful and stock images. It has a very smooth UI and user can download images as well.There is options for filtering different categories of images",
+        tags: ['HTML', 'CSS5','Reactjs'],
+        code: 'https://unsplash-clone-beta.vercel.app/',
        // demo: '',
         image: four
     },
