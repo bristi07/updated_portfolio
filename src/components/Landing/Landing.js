@@ -12,9 +12,10 @@ import {
     FaTwitter,
     FaLinkedin,
     FaGithub,
+    FaCode
     
 } from 'react-icons/fa';
-
+import {SiLeetcode} from 'react-icons/si';
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
 
@@ -113,32 +114,32 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.youtube && (
+                        {socialsData.leetcode && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.leetcode}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <SiLeetcode
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='LeetCode'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.gfg && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.gfg}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaCode
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='GFG'
                                 />
                             </a>
-                        )} */}
+                        )}
                     </div>
                 </div>
                 <img

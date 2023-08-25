@@ -11,7 +11,7 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'All In One App to Boost Argo-Economy',
+        projectName: 'AgroEconHub',
         projectDesc: 'An app to bridge the gap between farmers and customers.',
         tags: ['React','MongoDB', 'ExpressJS', 'NodeJs','Stripe', 'JWT Token'],
         code: 'https://github.com/bristi07/agro_economy',
@@ -38,31 +38,31 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'Image Searching Website',
+        projectName: 'ImageQuest',
         projectDesc: "A place to find beautiful and stock images. It has a very smooth UI and user can download images as well.There is options for filtering different categories of images",
         tags: ['HTML', 'CSS5','Reactjs'],
         code: 'https://unsplash-clone-beta.vercel.app/',
        // demo: '',
         image: four
     },
-    // {
-    //     id: 5,
-    //     projectName: 'E-Commerce App',
-    //     projectDesc: 'A Simple E-commerce application',
-    //     tags: ['React Native', 'Firebase'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: five
-    // },
-    // {
-    //     id: 6,
-    //     projectName: 'Uber Lite',
-    //     projectDesc: 'Uber clone',
-    //     tags: ['Flutter'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: six
-    // },
+    {
+        id: 5,
+        projectName: 'Calendar Web App',
+        projectDesc: 'A Simple Calendar',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/bristi07/Calendar',
+        // demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        image: five
+    },
+    {
+        id: 6,
+        projectName: 'Drum Kit!',
+        projectDesc: 'An app where one can play drum in different ways',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/bristi07/drum-kit',
+       // demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        image: six
+    },
     // {
     //     id: 7,
     //     projectName: 'Stock Market App',

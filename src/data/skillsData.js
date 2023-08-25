@@ -6,6 +6,17 @@
     'CSS',
     'React',
     'C++',
+    'MySQL',
+    'Python',
+   
+    'MaterialUI',
+    'Tailwind',
+   'WordPress',
+    'Git',
+    
+    
+    
+
     
 ]
 
